@@ -24,10 +24,23 @@
 - `conftest.py` — фикстуры (запуск браузера, параметризация)
 - `test_items.py` — тест с параметризацией
 
+### `final_project/` — итоговый проект курса (Page Object Model)
+
+Финальное задание [урока 4.3](https://stepik.org/lesson/201964/step/15): автотесты
+интернет-магазина на Python + Selenium + PyTest с применением паттерна Page Object,
+наследования, отрицательных проверок, параметризации и setup-фикстур.
+Подробности и структура — в [`final_project/README.md`](final_project/README.md).
+
+```bash
+cd final_project
+pip install -r requirements.txt
+pytest tests/
+```
+
 ## Как запустить
 
 ```bash
-pip install selenium
+pip install -r final_project/requirements.txt
 python module2/test_2_1_5.py
 ```
 
